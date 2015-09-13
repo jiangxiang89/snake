@@ -11,11 +11,35 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+        }
+        release {
+            storeFile file("release.jks")
+            storePassword "loveinali"
+            keyAlias "loveinalibaba"
+            keyPassword "loveinali"
+        }
+    }
+    dexOptions {
+        //jumboMode true
+        //incremental true
+        javaMaxHeapSize "4g"
+    }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+    }
+    lintOptions {
+        abortOnError false
     }
 }
 
