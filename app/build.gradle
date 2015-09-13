@@ -17,9 +17,9 @@ android {
         }
         release {
             storeFile file("release.jks")
-            storePassword "loveinali"
-            keyAlias "loveinalibaba"
-            keyPassword "loveinali"
+            storePassword "jiangxiang"
+            keyAlias "jiangxiang"
+            keyPassword "jiangxiang"
         }
     }
     dexOptions {

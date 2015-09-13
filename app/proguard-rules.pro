@@ -86,6 +86,4 @@
     <methods>;
 }
 
-
-//使用4.0.3 以上android-sdk 进行顷目编译时产生异常癿情况时,加入以下内容：
 -dontwarn cn.waps.**

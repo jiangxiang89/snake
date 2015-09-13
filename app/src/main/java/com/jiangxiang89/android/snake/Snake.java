@@ -151,7 +151,6 @@ public class Snake extends Activity implements View.OnClickListener {
     protected void onPause() {
         super.onPause();
         // Pause the game along with the activity
-        mSnakeView.setMode(SnakeView.PAUSE);
     }
 
     @Override

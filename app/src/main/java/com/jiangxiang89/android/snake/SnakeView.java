@@ -560,11 +560,9 @@ public class SnakeView extends TileView {
 
     public void growSpeed(){
         mMoveDelay *= 0.9;
-        update();
     }
 
     public void slowSpeed(){
         mMoveDelay *= 1.1;
-        update();
     }
 }
