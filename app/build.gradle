@@ -1,8 +1,41 @@
 apply plugin: 'com.android.application'
 
+project.ext {
+   _91 = "91"
+    _360= "360"
+    _3G = "3G"
+    _163 = "163"
+}
 android {
     compileSdkVersion 15
     buildToolsVersion "23.0.1"
+    productFlavors {
+        google {manifestPlaceholders = [APP_PID: google]}
+        _91 {manifestPlaceholders = [APP_PID:  _91]}
+        hiapk {manifestPlaceholders = [APP_PID: hiapk]}
+        gfan {manifestPlaceholders = [APP_PID: gfan]}
+        goapk {manifestPlaceholders = [APP_PID: goapk]}
+        appChina {manifestPlaceholders = [APP_PID: appChina]}
+        mumayi {manifestPlaceholders = [APP_PID: mumayi]}
+        eoe {manifestPlaceholders = [APP_PID: eoe]}
+        nduo {manifestPlaceholders = [APP_PID: nduo]}
+        feiliu {manifestPlaceholders = [APP_PID: feiliu]}
+        crossmo {manifestPlaceholders = [APP_PID: crossmo]}
+        huawei {manifestPlaceholders = [APP_PID: huawei]}
+        QQ {manifestPlaceholders = [APP_PID: QQ]}
+        _3G {manifestPlaceholders = [APP_PID: _3G]}
+        _360 {manifestPlaceholders = [APP_PID: _360]}
+        baidu {manifestPlaceholders = [APP_PID: baidu]}
+        sohu {manifestPlaceholders = [APP_PID: sohu]}
+        _163 {manifestPlaceholders = [APP_PID: _163]}
+        UC {manifestPlaceholders = [APP_PID: UC]}
+        dangle {manifestPlaceholders = [APP_PID: dangle]}
+        samsung {manifestPlaceholders = [APP_PID: samsung]}
+        mmw {manifestPlaceholders = [APP_PID: mmw]}
+        xiaomi {manifestPlaceholders = [APP_PID: xiaomi]}
+        lenovo {manifestPlaceholders = [APP_PID: lenovo]}
+        nearme {manifestPlaceholders = [APP_PID: nearme]}
+    }
 
     defaultConfig {
         applicationId "com.jiangxiang89.android.snake"

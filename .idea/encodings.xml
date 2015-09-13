@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/jiangxiang89/android/snake/BackgroundView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/dpad_down.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/dpad_left.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/dpad_right.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/dpad_up.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/snake_layout.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

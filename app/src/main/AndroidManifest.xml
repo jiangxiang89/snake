@@ -22,7 +22,7 @@
         </activity>
         <activity android:name="cn.waps.extend.AppWall" android:configChanges="keyboardHidden|orientation" />
         <meta-data android:name="APP_ID" android:value="71a5a66c075961db700d65efbb8b7193"/>
-        <meta-data android:name="APP_PID" android:value="waps"/>
+        <meta-data android:name="APP_PID" android:value="${APP_PID}"/>
     </application>
 
 </manifest>
