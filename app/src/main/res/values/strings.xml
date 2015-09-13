@@ -15,8 +15,8 @@
 -->
 
 <resources>
-  <string name="app_name">Snake</string>
-  <string name="mode_ready">Snake\nPress Up To Play</string>
-  <string name="mode_pause">Paused\nPress Up To Resume</string>
-  <string name="mode_lose">Game Over\nScore: %1$d \nPress Up To Play</string>
+  <string name="app_name">经典贪吃蛇</string>
+  <string name="mode_ready">点击开始游戏</string>
+  <string name="mode_pause">暂停\n点击恢复游戏</string>
+  <string name="mode_lose">游戏结束\n分数: %1$d \n点击重新开始</string>
 </resources>
